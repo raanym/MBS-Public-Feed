@@ -1,5 +1,5 @@
 .title {
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: center;
   font-weight: 800;
   line-height: 1.1;
@@ -8,8 +8,7 @@
 
 .title > span {
   display: block;
-  padding-bottom: 10px;
-  margin-bottom: -20px;
+  color: #ED1C24;
 }
 
 .nextjs {

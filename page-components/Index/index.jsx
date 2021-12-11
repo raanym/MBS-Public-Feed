@@ -1,5 +1,9 @@
 import Hero from './Hero';
+import Showcase from './Showcase';
 
 export const Index = () => {
-  return <Hero />;
+  return <div>
+    <Showcase />
+    <Hero />
+  </div>;
 };

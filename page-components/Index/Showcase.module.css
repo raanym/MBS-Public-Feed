@@ -1,0 +1,9 @@
+.bg {
+  background: url('../../assets//bg.png') top center/cover;
+  height: 400px;
+  @apply flex justify-end items-center;
+}
+
+.logoDiv {
+   @apply flex flex-col items-center;
+}

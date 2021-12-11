@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <Wrapper>
-        <Text color="accents-7">
+        <Text color="accents-7 bg-gray-400">
           Made with ❤️, 🔥, and a keyboard by{' '}
           <TextLink href="https://hoangvvo.com/" color="link">
             Hoang Vo
