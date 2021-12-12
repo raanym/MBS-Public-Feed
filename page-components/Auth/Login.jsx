@@ -51,7 +51,7 @@ const Login = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Login to App</h1>
+        <h1 className={styles.title}>Login to MBS Public Feed</h1>
         <form onSubmit={onSubmit}>
           <Input
             ref={emailRef}
@@ -85,7 +85,7 @@ const Login = () => {
           <Spacer size={0.25} axis="vertical" />
           <Link href="/forget-password" passHref>
             <ButtonLink type="success" size="large" variant="ghost">
-              Forget password
+              Forgot password
             </ButtonLink>
           </Link>
         </form>
