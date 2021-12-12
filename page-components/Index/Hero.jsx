@@ -9,7 +9,7 @@ import logo from '../../assets/logo.png';
 const Hero = () => {
   return (
     <Wrapper>
-      <div>
+      <div className={styles.main}>
         <h1 className={styles.title}>
           <Image src={logo} />
           <span>Public <span style={{ 'color': '#F9B924' }}>Feed</span></span>
@@ -27,7 +27,7 @@ const Hero = () => {
           <Spacer axis="horizontal" size={1} />
           <Container>
             <ButtonLink
-              href="https:/https://www.businessschool.mv/home/"
+              href="https://www.businessschool.mv/home/"
               type="secondary"
               className={styles.button}
             >
@@ -35,9 +35,6 @@ const Hero = () => {
             </ButtonLink>
           </Container>
         </Container>
-      </div>
-      <div className={styles.bg}>
-        helo
       </div>
     </Wrapper >
   );

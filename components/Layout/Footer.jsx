@@ -8,13 +8,14 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <Wrapper>
-        <Text color="accents-7 bg-gray-400">
-          Made with ❤️, 🔥, and a keyboard by{' '}
-          <TextLink href="https://hoangvvo.com/" color="link">
-            Hoang Vo
-          </TextLink>
-          .
-        </Text>
+        <div>
+          <p>
+            Developed and maintained by Mohamed Raaneem Ahmed
+          </p>
+          <p>
+            Maldives Business School &copy; 2021
+          </p>
+        </div>
         <Spacer size={1} axis="vertical" />
         <ThemeSwitcher />
       </Wrapper>
